@@ -1,0 +1,13 @@
+# Development
+.vscode/
+todo/
+
+# Zig artifacts
+zig-cache/
+
+# C artifacts
+*.o
+
+# Windows artifacts
+*.exe
+*.pdb
