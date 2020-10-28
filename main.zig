@@ -45,7 +45,7 @@ const fragmentShader =
   \\}
 ;
 
-const positions = []f32 {0, 0, 0, 0.5, 0.7, 0};
+const positions = [_]f32 {0, 0, 0, 0.5, 0.7, 0};
 
 var program_id: c_uint = undefined;
 var positionAttributeLocation: c_int = undefined;
