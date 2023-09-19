@@ -5,4 +5,4 @@ one of the official mozilla examples.
 
 https://developer.mozilla.org/en-US/docs/WebAssembly
 
-Compile with `zig build-exe -target wasm32-freestanding --release-small main.zig`
+Compile with `zig build-lib -dynamic -rdynamic -target wasm32-freestanding -OReleaseSmall main.zig`
